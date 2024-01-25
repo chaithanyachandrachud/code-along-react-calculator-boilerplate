@@ -1,0 +1,90 @@
+#root {
+  max-width: 1280px;
+  margin: 0 25%;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+body{
+  background-color:bisque;
+  color:darkgreen;
+}
+
+input{
+  display: block;
+  background-color: rgb(164, 138, 138);
+  color:burlywood;
+  font-weight: bolder;
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+  width: 70%;
+  height: 30px;
+  text-align: end;
+  padding: 0px 30px;
+  border-radius: 90px 90px 0px 0px;
+  border: 0px;
+}
+.btns{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 10px 0% 0% 9.4%;
+  
+}
+
+.nums{
+  margin: 5px 0px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5px;
+}
+
+input+input{
+  border-radius:  0px 0px 90px 90px;
+  border-top: 1px solid rgb(167, 167, 167);
+
+}
+.parent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebtns{
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button{
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  background-color:gray;
+  border-radius: 20px;
+  border: 0px;
+  color: black;
+  font-weight: bolder;
+  font-size: larger;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.sidebtns button{
+  height: 40px;
+  width: 100%;
+  border-radius: 20px;
+  margin: 1px;
+}
+
+.all{
+  width: 90%;
+}
+
+button:hover{
+  transition: 0.3s ease;
+  background-color:white;
+  font-size:medium;
+}
